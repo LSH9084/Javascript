@@ -1,0 +1,76 @@
+
+
+.todo-wrapper {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 40%;
+}
+
+.todo-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.todo-title-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.todo-title-box div {
+    padding: 25px 30px;
+}
+
+.todo-title {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 29px;
+}
+
+.todo-description{
+    font-size: 19px;
+}
+
+.todo-search-box{
+    display: flex;
+}
+
+.todo-search-input {
+    width: 70%;
+    flex: 1;
+    padding-left: 20px;
+    border-radius: 10px 0 0px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: none;
+    outline: none;
+}
+
+.todo-search-input:focus{
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.todo-search-btn {
+    padding: 10px 15px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.todo-lists{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.todo-list-mokitem {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
