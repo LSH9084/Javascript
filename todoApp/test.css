@@ -44,6 +44,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-right: none;
     outline: none;
+
 }
 
 .todo-search-input:focus{
@@ -57,6 +58,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
 }
 
 .todo-lists{
